@@ -1,3 +1,4 @@
+
 function calc(){
     var chiffre1 = parseFloat(document.forms["calculatrice"].elements["champChiffre1"].value);
     var chiffre2 = parseFloat(document.forms["calculatrice"].elements["champChiffre2"].value);
@@ -18,3 +19,4 @@ function calc(){
     document.forms["calculatrice"].elements["result"].value = resultat;
 
 };
+
