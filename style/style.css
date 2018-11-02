@@ -10,6 +10,7 @@ header{
     background-color: #9966ff;
     height: 150px;
 }
+
 h1{
     text-align: center;
     line-height: 150px;
@@ -17,7 +18,8 @@ h1{
 }
 
 /*contenu de la calculatrice*/
-.container1{
+.calculatrice{
+
     display: flex;
     width : 500px;
     flex-direction: column;
@@ -26,6 +28,8 @@ h1{
 }
 
 .champChiffre1{
+    text-align: center;
+    font-size: 3em;
     width: 300px;
     height: 100px;
     margin: auto;
@@ -33,6 +37,8 @@ h1{
 }
 
 .liste{
+    font-size: 2em;
+    text-align: center;
     width: 300px;
     height: 50px;
     margin: auto;
@@ -40,21 +46,27 @@ h1{
 }
 
 .champChiffre2{
+    text-align: center;
+    font-size: 3em;
     width: 300px;
     height: 100px;
     margin: auto;
     margin-bottom: 10px;
 }
 
-.Calcul{
-    width: 300px;
+#calcul{
+    font-size: 2em;
+    text-align: center;
+    width: 150px;
     height: 50px;
     margin: auto;
     margin-bottom: 10px;
 }
 
-.resultat {
+#resultat {
+    font-size: 4em;
     width: 300px;
     height: 150px;
     margin: auto;
+    text-align: center;
 }

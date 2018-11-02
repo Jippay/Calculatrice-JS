@@ -12,7 +12,7 @@
         <h1>Calculatrice</h1>
     </header>
     <main>
-        <form class="container1">
+        <form name="calculatrice" class="calculatrice">
             <input name="champChiffre1" class="champChiffre1">
             <select name="list" class="liste">
                 <option value="additionner">additionner</option>
@@ -20,9 +20,9 @@
                 <option value="multiplier">multiplier</option>
                 <option value="diviser">diviser</option>
             </select>
-            <input name="champChiffre2" class="champChiffre2">
-            <input name="calculer" class="Calcul">
-            <input name="resultat" class="resultat">
+            <input name="champChiffre2" class="champChiffre2" type="text">
+            <input type="text" name="calculer" value="calculer" id="calcul" onclick="calc()" readonly>
+            <input type="text" name="result" id="resultat">
         </form>
     </main>
     <footer>
