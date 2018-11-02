@@ -34,6 +34,7 @@ h1{
     height: 100px;
     margin: auto;
     margin-bottom: 10px;
+    border : 1px solid grey;
 }
 
 .liste{
@@ -52,6 +53,7 @@ h1{
     height: 100px;
     margin: auto;
     margin-bottom: 10px;
+    border : 1px solid grey;
 }
 
 #calcul{
@@ -69,4 +71,13 @@ h1{
     height: 150px;
     margin: auto;
     text-align: center;
+}
+
+.reset{
+    width : 100px;
+    height : 50px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #ffffff00;
+    border: 1px solid #ff0000;
 }
