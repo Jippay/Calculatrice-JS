@@ -1,0 +1,60 @@
+*{/*enleve les marges sur toute la page*/
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+}
+header{
+    background-color: #9966ff;
+    height: 150px;
+}
+h1{
+    text-align: center;
+    line-height: 150px;
+    color: white;
+}
+
+/*contenu de la calculatrice*/
+.container1{
+    display: flex;
+    width : 500px;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.champChiffre1{
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.liste{
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.champChiffre2{
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.Calcul{
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.resultat {
+    width: 300px;
+    height: 150px;
+    margin: auto;
+}
